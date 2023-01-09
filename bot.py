@@ -11,9 +11,10 @@ intents = discord.Intents().all()
 client = discord.Client(intents=intents)
 
 rfc_2119_keywords=["MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
-"RECOMMENDED", "MAY",
-"DOIT", "NE DOIT PAS", "DEVRAIT", "NE DEVRAIT PAS", "PEUT",
-"DOIS", "NE DOIS PAS", "DEVRAIS", "NE DEVRAIS PAS", "PEUX"] #fr
+"RECOMMENDED", "MAY","OPTIONAL",
+"DOIT", "NE DOIT PAS", "DEVRAIT", "NE DEVRAIT PAS", "PEUT", "REQUIS", "OPTIONNEL",
+"DOIS", "NE DOIS PAS", "DEVRAIS", "NE DEVRAIS PAS", "PEUX",
+"DEVEZ", "NE DEVEZ PAS", "DEVREZ", "NE DEVREZ PAS", "POUVEZ"] #fr
 
 reactions= ["😫","😩","🤬","🤯","😡","🤮", "😿"]
 #first event :logging in
